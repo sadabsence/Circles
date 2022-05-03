@@ -103,7 +103,7 @@ public class Solution {
     }
 
     public static Point randomPoint() {
-        return new Point(Math.random() * 200 + 100, Math.random() * 200 + 100);
+        return new Point(Math.random() * 1000, Math.random() * 1000);
     }
 
     public void addRandomCircles(List<Circle> list, int count) {
