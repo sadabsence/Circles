@@ -133,7 +133,8 @@ public class MyFrame extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         try {
-            textFIELD2.setText("Последняя введенная точка : \n    " + allPoints.get(allPoints.size() - 1));
+            if (!allPoints.isEmpty()) {
+            textFIELD2.setText("Последняя введенная точка : \n    " + allPoints.get(allPoints.size() - 1));}
         } catch (IndexOutOfBoundsException e1) {
             e1.printStackTrace();
         }
