@@ -271,9 +271,9 @@ public class MyFrame extends JFrame implements ActionListener {
         List<Line> lines = solve.findLines(solve.circles);
 
 
-        for (Line value : lines) {
-            g.drawLine((int) value.p1.x, (int) value.p1.y, (int) value.p2.x, (int) value.p2.y);
-        }
+        //for (Line value : lines) {
+            //g.drawLine((int) value.p1.x, (int) value.p1.y, (int) value.p2.x, (int) value.p2.y);
+        //}
 
         Line line = solve.findMaxLength(lines);
 
