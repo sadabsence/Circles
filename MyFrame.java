@@ -98,7 +98,7 @@ public class MyFrame extends JFrame implements ActionListener {
         setLayout(null);
 
         setSize(1400, 900);
-        getContentPane().setBackground(new Color(4, 90, 117));
+        getContentPane().setBackground(new Color(11, 31, 194));
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         addMouseListener(new MyMouseListener());
         setVisible(true);
